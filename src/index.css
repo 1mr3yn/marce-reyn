@@ -77,6 +77,13 @@ html {
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Frankfruits';
+  src: url('../assets/fonts/Frankfruits-Free.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-lovely-home {
   font-family: 'LovelyHome', cursive;
 }
@@ -114,4 +121,8 @@ html {
 
 .font-cherish {
   font-family: "Cherish", cursive;
+}
+
+.font-frankfruits {
+  font-family: 'Frankfruits', cursive;
 }
