@@ -31,7 +31,7 @@ const Hero = () => {
 
             <WordFadeIn
               words="Join us for the adventure of a lifetime"
-              className="varela-round-regula text-4lg
+              className="varela-round-regular text-4lg
               sm:text-lg italic md:text-xl md:mt-5 text-gray-800 tracking-wide
               lg:text-4xl "
             />
