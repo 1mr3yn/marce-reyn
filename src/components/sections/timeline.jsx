@@ -14,7 +14,7 @@ const TimelineItem = ({ time, event, location, icon: Icon, image, isLeft }) => (
           <h3 className="text-xl font-bold uppercase mx-2"> {time} <span className='text-gray-700'>{event}</span></h3>
         </div>
         {/* <p className="text-sm text-gray-600 mb-1">{time}</p> */}
-        <div className={`flex items-center text-sm text-gray-600 ${isLeft ? 'md:justify-end' : 'md:justify-start'}`}>
+        <div className={`flex items-center text-base text-gray-600 ${isLeft ? 'md:justify-end' : 'md:justify-start'}`}>
           <MapPin className="w-4 h-4 mr-1" />
           <p>{location}</p>
         </div>
@@ -38,14 +38,14 @@ const Timeline = () => {
     {
       time: "", //"3:00 PM",
       event: "Reception",
-      location: "Leanels Garden, Kaybagal North, Tagaytay City",
+      location: "Leanels Garden, Daang Luma, Tagaytay City",
       icon: Tent,
       image: venueImage
     },
     {
       time: "", //"6:00 PM",
       event: "After Party",
-      location: "Leanels Garden, Kaybagal North, Tagaytay City",
+      location: "Leanels Garden, Daang Luma, Tagaytay City",
       icon: Music,
       image: afterPartyImage
     },
