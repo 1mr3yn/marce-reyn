@@ -39,7 +39,11 @@ const features = [
   {
     Icon: GlobeIcon,
     name: "RSVP",
-    description: "We wanted to invite you in a more personal way, so we're reaching out directly. Please let us know if you can join us by [date].",
+    description: (
+      <>
+        We wanted to invite you in a more personal way, so we're reaching out directly. Please let us know if you can join us on or before <span className="font-bold">November 22, 2024</span>.
+      </>
+    ),
     background: (
       <>
         <div className="absolute inset-0 w-full bg-black h-full object-cover"></div>
