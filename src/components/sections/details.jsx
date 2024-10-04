@@ -41,7 +41,7 @@ const features = [
     name: "RSVP",
     description: (
       <>
-        We wanted to invite you in a more personal way, so we're reaching out directly. Please let us know if you can join us on or before <span className="font-bold">November 22, 2024</span>.
+        We wanted to invite you in a more personal way, so we're reaching out directly. Please let us know if you can join us on or before <br></br> <span className="font-bold">November 22, 2024</span>.
       </>
     ),
     background: (
