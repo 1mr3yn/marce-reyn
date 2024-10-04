@@ -23,9 +23,9 @@ const Hero = () => {
             <SparklesText
               text="Marce & Reyn"
               className="
-              font-cherish font-bold
+              font-allura font-bold
               text-5xl sm:text-8xl md:text-8xl lg:text-8xl
-              tracking-widest text-yellow-700 drop-shadow-[0_1px_1px_rgba(0,0,0,0.30)]"
+              tracking-wider text-yellow-700 drop-shadow-[0_1px_1px_rgba(0,0,0,0.30)]"
             />
 
 

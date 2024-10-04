@@ -26,7 +26,7 @@ const Datetime = () => {
 
      <p className="text-center text-lg sm:text-xl 
      md:text-lg mt-6 md:mt-6 lg:mt-6 italic font-bold
-     drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+     drop-shadow-[0_2px_2px_rgba(0,0,0,0.20)]">
      St. Mary Magdalene, Parish Church III,  Amadeo Cavite
      </p>
    </div>
