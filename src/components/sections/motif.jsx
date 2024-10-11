@@ -4,7 +4,7 @@ import React from 'react';
 const Motif = () => {
   return (
     <section
-      className="py-5"
+      className="py-10"
       style={{
         background: 'linear-gradient(180deg,  #D1D5DB, #F3F4F6)'
       }}
@@ -15,8 +15,8 @@ const Motif = () => {
           WEDDING ATTIRE
         </h2>
 
-        <p className="pb-2 text-base sm:text-lg">
-          Dress Code: <i className=""> Formal </i>
+        <p className="py-4 text-base sm:text-lg">
+          Dress Code: <i className=""> Casual Formal </i>
         </p>
 
         <div className="flex justify-center space-x-2 sm:space-x-4">
@@ -37,7 +37,7 @@ const Motif = () => {
             title="Dark Cyan"></div> {/* RGB(37, 127, 145) */}
         </div>
 
-        <p className="text-base sm:text-lg my-4 varela-round-regular">
+        <p className="text-base sm:text-lg mt-6 varela-round-regular">
           We kindly encourage our guests to wear these colors for our special day
         </p>
       </div>
