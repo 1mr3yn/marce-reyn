@@ -23,7 +23,7 @@ const Gallery = () => {
 
   return (
     <section className="py-5 bg-gradient-to-b from-gray-300 to-gray-200">
-      <div className="container mx-auto">
+      <div className="px-2 mx-auto">
         <div className="grid grid-cols-4 gap-1 sm:gap-1">
           {images.map((image, index) => (
             <img
