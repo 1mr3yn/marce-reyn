@@ -30,7 +30,9 @@ const CountdownTimer = ({ targetDate }) => {
   const padWithZero = (num) => String(num).padStart(2, '0');
 
   return (
-    <section className="bg-gray-200 py-16">
+    <section className="py-16" style={{
+      background: 'linear-gradient(180deg, #F3F4F6, #D1D5DB)'
+    }}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center mb-4 text-gray-800">
         Days until we say <span className='italic'>"I do"</span>

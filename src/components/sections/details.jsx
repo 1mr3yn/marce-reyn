@@ -14,7 +14,7 @@ import fortune from '../../assets/fortune.png';
 const features = [
   {
     Icon: FileTextIcon,
-    name: "Gifts",
+    name: "GIFTS",
     description: "Your presence is the greatest gift we could ask for. However, if you'd like to give us a tangible token of your love, we'd be grateful for a contribution towards our future together.",
     background: (
       <>
@@ -26,7 +26,7 @@ const features = [
   },
   {
     Icon: InputIcon,
-    name: "Unplugged",
+    name: "UNPLUGGED",
     description: "Please help us unplug and enjoy the moment. We've got photographers on hand to capture the ceremony, so you can savor the experience without worrying about your phone.",
     background: (
       <>
