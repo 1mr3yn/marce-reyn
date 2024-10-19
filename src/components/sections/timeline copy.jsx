@@ -81,7 +81,14 @@ const Timeline = () => {
 
       <div className="container mx-auto px-4 sm:px-4 lg:px-4">
         <div className="max-w-4xl mx-auto">
-
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex justify-center">
+              <img src={StMary} alt="St. Mary" className="w-full max-w-xs h-auto object-contain" />
+            </div>
+            <div className="flex justify-center">
+              <img src={LeanelsQR} alt="Leanels" className="w-full max-w-xs h-auto object-contain" />
+            </div>
+          </div>
         </div>
       </div>
       
